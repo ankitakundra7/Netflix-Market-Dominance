@@ -1,5 +1,5 @@
 # Netflix-Market-Dominance
-### By- Ankita Kundra, Oluwaseun Ibitoye, Ohyoon Kwon, Ambikha Maharaj, Samuel Oh, Aditya Soni
+#### - Ankita Kundra, Oluwaseun Ibitoye, Ohyoon Kwon, Ambikha Maharaj, Samuel Oh, Aditya Soni
 
 In this project, we tried to explore if Netflix is beginning to lose its dominance in the streaming services industry through the analysis of user comments on social media.
 
