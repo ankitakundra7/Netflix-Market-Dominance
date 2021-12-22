@@ -3,12 +3,36 @@
 
 In this project, we tried to explore if Netflix is beginning to lose its dominance in the streaming services industry through the analysis of user comments on social media. Netflix's streaming services was launched in 2007 and is one of the oldest. This first-mover advantage has helped to ensure its overwhelming dominance in the streaming servies industry for over a decade now. However over the past few years, other streaming platforms such as hulu, hbomax, paramount etc are on the rise. In the first quarter of 2021, Netflix reported the addition of four million new customers which was considerably below the forecasted six million. In this project, we analyze the comments on social media to understand if there is a shift in user sentiments towards Netflix viz-a-viz other streaming services and identify the possible reasons for it.
 
-We scrapped 185,000 comments dating from Jan' 2020 to Oct' 2021 from subreddit r/CordCutters for this purpose. r/CordCutters is a discussion platform for live streaming and on demand services like Roku, Netflix, Hulu, Amazon, and YouTube TV. We also scrapped comments on Netflix shows on IMDb.
+**Data Preprocessing:**
 
-We began our analysis by cleaning the data and removing stopwords, punctuations etc. We also replaced 
+We scrapped 185,000 comments dating from Jan' 2020 to Oct' 2021 from subreddit r/CordCutters for this purpose. r/CordCutters is a discussion platform for live-streaming and on-demand services like Roku, Netflix, Hulu, Amazon, and YouTube TV. We also scrapped comments on Netflix shows on IMDb. 
 
-This overcoming of dominance of other streaming services may eventually impact Netflix itself and also its subscribers as well and since they may want to improve their streaming in order to stay on trend with their competitors
-This problem can also impact competitors and can affect their subscribers as well and competitors can learn from Netflix’s techniques on how to be more attractive to subscribers by improving their own content and giving them more of an edge
+We began our analysis by cleaning the data. We removed stopwords and punctuations etc. We also replaced different spellings of platform name with a single spelling to make the analysis simpler. For eg.- YouTube TV has been spelt as yttv or youtubetv etc in various comments which was replaced by yttv. Similarly, we replaced different synonyms of attributes we were interested in analyzing with a single word. For eg.- cost was replaced by price. We then removed all the comments in which none of the platforms we are interested in analyzing were mentioned. 
+
+For the purpose of the project, we only analyzed comments which had mention of streaming services: Youtube, Amazon, Hulu, Netflix, HBO Max, Apple, Disney, Sling and Paramount. After Data Cleaning, we were left with 36,500 comments.
+
+**Topic Modeling**
+
+We carried out topic modelling for the 36,500 cleaned comments using Latent Dirichlet Alllocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities.
+3 main topics
+Green: talking about traditional cable/tv experience (cable, antenna, tv)
+Orange: streaming services & their pricing (hbomax, netflix, amazon, price)
+Blue: talking about services that offer hardware devices for streaming and their quality (apple tv & roku)
+![image](https://user-images.githubusercontent.com/65372245/147138853-f0ea62cf-50ef-4b0c-b988-69419bd9ee59.png)
+Topic modelling for only comments containing Netflix
+3 main topics
+Green: talking about the company as a whole so about the platform, market
+Orange: talking about their content, cancelled shows (shows, episodes)
+Blue: talking about netflix in relation to other streaming services and their attributes (netflix, hulu, amazon)
+![image](https://user-images.githubusercontent.com/65372245/147138917-710c12b1-9b67-445f-b5aa-057c2dc5fc23.png)
+
+
+POTENTIAL COMPETITORS - amazon, hbomax
+Close cluster - disney, hulu
+Potential switching behaviours between clusters 
+![image](https://user-images.githubusercontent.com/65372245/147138960-f0431ab0-2f55-46d2-b653-9e4654ae5c72.png)
+
+
 
 
 
