@@ -13,7 +13,7 @@ For the purpose of the project, we only analyzed comments which had mention of s
 
 **Topic Modeling**
 
-We carried out topic modelling for the 36,500 cleaned comments using Latent Dirichlet Alllocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities.
+We carried out topic modelling for 36,500 cleaned comments using Latent Dirichlet Alllocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities.
 3 main topics
 Green: talking about traditional cable/tv experience (cable, antenna, tv)
 Orange: streaming services & their pricing (hbomax, netflix, amazon, price)
@@ -32,23 +32,21 @@ Close cluster - disney, hulu
 Potential switching behaviours between clusters 
 ![image](https://user-images.githubusercontent.com/65372245/147138960-f0431ab0-2f55-46d2-b653-9e4654ae5c72.png)
 
+**Lift Analysis:**
 
 
+**Sentiment Analysis:**
 
-
-Left: Sentiment scores for all the platforms are positive from 0.24 to 0.41, so we concluded that there are no significant insights that we can draw from the table.
-So we decided to dive deeper into this analysis by, instead of looking at the magnitude of the sentiments, to look at the proportion of negative and positive comments out of the comments that mention only each platform. We discovered that Netflix came second place for the proportion of negative comments. 
-![image](https://user-images.githubusercontent.com/65372245/147089936-dd428368-5284-4211-b2c0-82466aaea12b.png)
-
-We also conducted sentiment analysis of the attributes for each platform and almost all the sentiments were positive.
-Out of all the attributes, the proportion of negative comments of Netflix are relatively high for the ‘Family’ and ‘Original’ attributes. Each of these tables show the top 3 platforms with higher negative comments.
+We find that sentiment scores for all the streaming platforms are positive, ranging between 0.24 and 0.41. Thus, there are no significant insights that can be drawn from the sentiment-score table. Instead of looking at the magnitude of the sentiments, we next looked at the proportion of negative-sentiment and positive-sentiment comments for each platform. We discovered that Netflix had second highest proportion of negative comments among all the platforms. Next, we performed sentiment analysis for specific attributes for each platform. We find that among all the chosen attributes, the proportion of negative comments of Netflix are relatively high for the ‘Family’ and ‘Original’ attributes.
 Family
-In the earlier Topic modeling slides, we found that ‘dark’ was included in the ‘content’ topic. From the table, we can see that there are relatively more negative comments about the family attribute. On the other hand, Disney and Hulu are known to be more family-friendly, which we assumed was why they were not included in the top 3. So this shows how there is a chance of Netflix losing certain subscribers to those family-friendlier platforms.
+During topic modeling, we found that ‘dark’ was included in the ‘content’ topic. From the table, we can see that there are relatively more negative comments about the family attribute. On the other hand, Disney and Hulu are known to be more family-friendly, which we assumed was why they were not included in the top 3. So this shows how there is a chance of Netflix losing certain subscribers to those family-friendlier platforms.
 Original
 From the table on the right, we can see that netflix ranks 2nd place for the highest proportion of negative comments about original contents. So we looked into the originals of each of the platforms and found out that netflix actually had the greatest number of original contents. The number of more than all the others’ combined. So we wanted to what aspect of the Netflix’s originals showed areas of improvement and this led to our further investigation about the original content of the platforms.
 Lastly, how HBO Max and Amazon are commented about the same attributes in a similar way may underline that they are potential competitors.
 
 ![image](https://user-images.githubusercontent.com/65372245/147089976-a93f689f-987c-4914-8ab2-9c06854d4417.png)
+
+**IMDb Comments Analysis:**
 
 The original content is one of the most important features in the TV streaming market. Based on the previous analysis, we decided to compare sentiment scores with IMDb rating of the entire original contents of each platform. The overall trend of this relationship seems to be proportional. We could see that Netfilx’s relatively low scores for both IMDB and sentiment. One issue we thought of is that Netflix might be focusing less on the quality of the contents, compared to the quantity of the contents, which is about 4 times more than the sum of all other streaming services’. 1918 vs 523
 ![image](https://user-images.githubusercontent.com/65372245/147090022-20ecf13b-d870-49fe-9b73-37e79604e241.png)
