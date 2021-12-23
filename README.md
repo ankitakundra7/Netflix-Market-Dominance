@@ -48,6 +48,15 @@ Lastly, how HBO Max and Amazon are commented about the same attributes in a simi
 The original content is one of the most important features in the TV streaming market. Based on the previous analysis, we decided to compare sentiment scores with IMDb rating of the entire original contents of each platform. The overall trend of this relationship seems to be proportional. We could see that Netfilx’s relatively low scores for both IMDB and sentiment. One issue we thought of is that Netflix might be focusing less on the quality of the contents, compared to the quantity of the contents, which is about 4 times more than the sum of all other streaming services’. 1918 vs 523
 ![image](https://user-images.githubusercontent.com/65372245/147090022-20ecf13b-d870-49fe-9b73-37e79604e241.png)
 
+**Conclusions and Recommendations:**
+**Conclusions and Recommendations:**
+
+It can be concluded from the analysis that Netflix is still the dominant platform but competitors are fast catching up. It cannot continue to rely on the first mover advantage. Netflix's biggest competitor according to our analysis are: HBOMAX and Amazon. Netflix should focus on quality over quantity in their original content
+The attributes are average compared to the competitors. So improving in any of these will be good (live, connection, etc.)
+Biggest competitors: HBOMAX and Amazon
+Develop Recommendation System for Platforms → beneficial for people!!!!!
+![image](https://user-images.githubusercontent.com/65372245/147090057-37a6fe46-e786-40d2-b1f5-ec3a43ffc52c.png)
+
 any other relevant information regarding netflix dominance, concluding statements
 Netflix is still one of the most popular platforms , should not rely on their first mover advantage
 Focus on quality over quantity in their original content
