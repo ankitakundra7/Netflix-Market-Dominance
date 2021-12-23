@@ -18,12 +18,10 @@ We carried out topic modelling for 36,500 cleaned comments using Latent Dirichle
  - Discussions about streaming services & their pricing (hbomax, netflix, amazon, price)
  - Discussions about services that offer hardware devices for streaming and their quality (apple tv & roku)
 
-We Topic modelling for only comments containing Netflix
-3 main topics
-Green: talking about the company as a whole so about the platform, market
-Orange: talking about their content, cancelled shows (shows, episodes)
-Blue: talking about netflix in relation to other streaming services and their attributes (netflix, hulu, amazon)
-![image](https://user-images.githubusercontent.com/65372245/147138917-710c12b1-9b67-445f-b5aa-057c2dc5fc23.png)
+Topic modelling on comments containing Netflix rendered the following topics:
+ - Discussions about the company as a whole i.e about the platform, market
+ - Discussions about their content, cancelled shows
+ - Discussions about netflix in relation to other streaming services (hulu, amazon) and their attributes 
 
 
 POTENTIAL COMPETITORS - amazon, hbomax
