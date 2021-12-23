@@ -5,7 +5,7 @@ In this project, we tried to explore if Netflix is beginning to lose its dominan
 
 **Data Preprocessing:**
 
-We scrapped 185,000 comments dating from Jan' 2020 to Oct' 2021 from subreddit r/CordCutters for this purpose. r/CordCutters is a discussion platform for live-streaming and on-demand services like Roku, Netflix, Hulu, Amazon, and YouTube TV. We also scrapped comments on Netflix shows on IMDb. 
+We scrapped 185,000 comments dating from Jan' 2020 to Oct' 2021 from subreddit r/CordCutters for this purpose. r/CordCutters is a subreddit on Reddit for discussions on live-streaming and on-demand services like Roku, Netflix, Hulu, Amazon, and YouTube TV. We also scrapped comments about Netflix shows on IMDb. 
 
 We began our analysis by cleaning the data. We removed stopwords and punctuations etc. We also replaced different spellings of platform name with a single spelling to make the analysis simpler. For eg.- YouTube TV has been spelt as yttv or youtubetv etc in various comments which was replaced by yttv. Similarly, we replaced different synonyms of attributes we were interested in analyzing with a single word. For eg.- cost was replaced by price. We then removed all the comments in which none of the platforms we are interested in analyzing were mentioned. 
 
@@ -13,13 +13,12 @@ For the purpose of the project, we only analyzed comments which had mention of s
 
 **Topic Modeling**
 
-We carried out topic modelling for 36,500 cleaned comments using Latent Dirichlet Alllocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities.
-3 main topics
-Green: talking about traditional cable/tv experience (cable, antenna, tv)
-Orange: streaming services & their pricing (hbomax, netflix, amazon, price)
-Blue: talking about services that offer hardware devices for streaming and their quality (apple tv & roku)
-![image](https://user-images.githubusercontent.com/65372245/147138853-f0ea62cf-50ef-4b0c-b988-69419bd9ee59.png)
-Topic modelling for only comments containing Netflix
+We carried out topic modelling for 36,500 cleaned comments using Latent Dirichlet Alllocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities. We identified three main topics:
+ - Discussions about traditional cable/tv experience (cable, antenna, tv)
+ - Discussions about streaming services & their pricing (hbomax, netflix, amazon, price)
+ - Discussions about services that offer hardware devices for streaming and their quality (apple tv & roku)
+
+We Topic modelling for only comments containing Netflix
 3 main topics
 Green: talking about the company as a whole so about the platform, market
 Orange: talking about their content, cancelled shows (shows, episodes)
