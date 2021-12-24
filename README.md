@@ -52,7 +52,7 @@ The original content is one of the most important features in the streaming serv
 
 **Conclusions and Recommendations:**
 
-It can be concluded from the analysis that Netflix is still the most dominant player in the streaming-services industry but competitors are fast catching up. It cannot continue to rely on the first mover advantage. Netflix's biggest competitors according to our analysis are: HBOMAX and Amazon. Netflix should focus on quality over quantity in their original content. Many attributes have an average sentiment score for Netflix compared to its competitors. So improving in any of these will be good (originality, live, connection, etc.)
+It can be concluded from the analysis that Netflix is still the most dominant player in the streaming-services industry but competitors are fast catching up. It cannot continue to rely on the first mover advantage. Netflix's biggest competitors according to our analysis are: HBOMAX and Amazon. Netflix should focus on quality over quantity in their original content. Many attributes have an average sentiment score for Netflix compared to its competitors. So improving upon any of these attributes (originality, live, connection, etc.) might help to improve the sentiments about Netflix.
 
 
 
