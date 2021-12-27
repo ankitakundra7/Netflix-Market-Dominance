@@ -13,7 +13,7 @@ For the purpose of the project, we only analyzed comments which had mention of s
 
 **Topic Modeling**
 
-We carried out topic modelling for 36,500 cleaned comments using Latent Dirichlet Alllocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities. We identified three main topics:
+We carried out topic modelling for 36,500 cleaned comments using Latent Dirichlet Allocation (LDA). LDA represents documents as mixtures of topics that spit out words with certain probabilities. We identified three main topics:
  - Discussions about traditional cable/tv experience (cable, antenna, tv)
  - Discussions about streaming services & their pricing (hbomax, netflix, amazon, price)
  - Discussions about services that offer hardware devices for streaming and their quality (apple tv & roku)
